@@ -214,6 +214,5 @@ pygame.init()
 newGame = Game('background.png', screenTitle, screenWidth, screenHeight)
 newGame.runGameLoop(1)
 
-# Quit pygame and the program
 pygame.quit()
 quit()
