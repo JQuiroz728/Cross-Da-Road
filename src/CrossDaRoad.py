@@ -58,7 +58,6 @@ class Game:
         while not isGameOver:
 
             # A loop to get all of the events occuring at any given time
-            # Events are most often mouse movement, mouse and button clicks, or exit events
             for event in pygame.event.get():
                 # If we have a quite type event (exit out) then exit out of the game loop
                 if event.type == pygame.QUIT:
