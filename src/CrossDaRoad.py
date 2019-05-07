@@ -1,5 +1,4 @@
 import pygame
-
 # Screen Dimensions
 screenTitle = 'Cross Da Road'
 screenWidth = 800
